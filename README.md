@@ -50,7 +50,7 @@ This work was supported by Basic Science Research Program through the National 
 
 > **E**: Encoder
 > 
-> ADNI, OASIS-1 (Classification Tasks): Hold-out test set with 5-fold CV ensemble
+> ADNI: Hold-out test set with 5-fold CV ensemble
 
 ## Model Weights
 The trained model weights for **GBT-net** are provided below.  
