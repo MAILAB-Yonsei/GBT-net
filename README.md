@@ -1,6 +1,8 @@
 # GBT-net
 This GitHub repository is created to share the model weights developed during the **GBT-net** project.
 
+![GBT-net Architecture](assets/foundation_models.png)  
+
 ---
 
 ## Requirements
@@ -68,11 +70,6 @@ Replace the placeholder links with your actual download URLs.
 >    ```  
 > 3. Replace the URLs above with your GitHub release URLs or other hosting links.
 
----
-
-## Main Figure
-![GBT-net Architecture](path/to/main_figure.png)  
-*Figure 1. Overview of the GBT-net architecture.*
 
 ---
 
