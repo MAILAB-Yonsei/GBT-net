@@ -9,13 +9,8 @@ This GitHub repository is created to share the model weights developed during th
 | Package        | Version |
 |----------------|---------|
 | Python         | ≥ 3.8   |
-| PyTorch (`torch`) | ≥ 2.0 |
-| torchvision    | ≥ 0.15  |
-| numpy          | ≥ 1.24  |
-| pandas         | ≥ 2.0   |
-| scikit-learn   | ≥ 1.3   |
-| matplotlib     | ≥ 3.8   |
-| tqdm           | ≥ 4.66  |
+| PyTorch        |  2.2.2  |
+| monai          |  1.3.0  |
 
 ---
 
