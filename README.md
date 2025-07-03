@@ -3,7 +3,6 @@ This GitHub repository is created to share the model weights developed during th
 
 ![GBT-net Architecture](assets/foundation_models.png)  
 
----
 
 ## Requirements
 | Package        | Version |
@@ -11,8 +10,6 @@ This GitHub repository is created to share the model weights developed during th
 | Python         | ≥ 3.8   |
 | PyTorch        |  2.2.2  |
 | monai          |  1.3.0  |
-
----
 
 ## Pre-training Dataset Overview
 
@@ -36,7 +33,6 @@ This GitHub repository is created to share the model weights developed during th
 > **NC** = Normal Cognition &nbsp;•&nbsp; **MCI** = Mild Cognitive Impairment &nbsp;•&nbsp; **AD** = Alzheimer’s Disease &nbsp;•&nbsp; **MRA** = Magnetic Resonance Angiography  
 > **IDH** = Isocitrate Dehydrogenase &nbsp;•&nbsp; **TCGA** = The Cancer Genome Atlas &nbsp;•&nbsp; **UCSF** = University of California, San Francisco  
 
----
 ## Downstream Task Evaluation
 
 | Method            | Backbone         |  Model Params      | ADNI (AUC)            | BraTS2023 (DSC)              | MSD04 (DSC)                  | OASIS-1 (AUC)        |
@@ -66,7 +62,6 @@ Replace the placeholder links with your actual download URLs.
 ## Usage
 Please refer to the [GBT-net Model Loading Notebook](load_model_weight.ipynb) for detailed instructions on how to load and run both the segmentation and classification models.
 
----
 
 ## License 
 See the [LICENSE](LICENSE) file for more details.
