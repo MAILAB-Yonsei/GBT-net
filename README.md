@@ -1,6 +1,6 @@
 # GBT-net
 
-# Dataset Overview
+## Pre-training Dataset Overview
 
 | Dataset                            | Modality               | Clinical Status             | Total # of Data (each contrast)       | Train (# of subj) | Valid (# of subj) | Test (# of subj) |
 |------------------------------------|------------------------|-----------------------------|--------------------------------------|-------------------|-------------------|------------------|
