@@ -56,9 +56,9 @@ This work was supported by Basic Science Research Program through the National 
 The trained model weights for **GBT-net** are provided below.  
 Replace the placeholder links with your actual download URLs.
 
-| Version | Pre-training Iterations                                 | Download Link |
-|---------|---------------------------------------------|---------------|
-| v1.0    | 100k                                        | [Download](https://drive.google.com/file/d/1sU9eM6FSyFnovnOddtDjmoqEdQM5GgKo/view?usp=sharing) |
+| Backbone       | Pre-training Iterations                     | Download Link |
+|----------------|---------------------------------------------|---------------|
+| Swin-UNETR-v2  | 50,000 (4 GPUs, batch size 16 per GPU)      | [Download](https://drive.google.com/file/d/1sU9eM6FSyFnovnOddtDjmoqEdQM5GgKo/view?usp=sharing) |
 
 
 
