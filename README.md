@@ -52,6 +52,7 @@ This work was supported by Basic Science Research Program through the National 
 
 > **E**: encoder parameters
 > ADNI: Hold-out test set with 5-fold CV ensemble
+> 
 > OASIS-1: Hold-out test set with 5-fold CV ensemble
 
 ## Model Weights
