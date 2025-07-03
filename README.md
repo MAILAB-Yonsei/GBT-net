@@ -48,7 +48,7 @@ This work was supported by Basic Science Research Program through the National 
 | MedCoss           | UNETR            |  249 M (E: 88 M)   | 0.866                 | 82.26                        | 78.96                        | 0.809                |
 | **GBT-net**       | Swin-UNETR-v2    |  73 M (E: 18 M)    | **0.950**             | <ins>83.85</ins>             | 81.16                        | **0.943**            |
 
-> **E**: encoder parameters
+> **E**: Encoder
 > 
 > ADNI, OASIS-1 (Classification Tasks): Hold-out test set with 5-fold CV ensemble
 
