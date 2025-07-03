@@ -38,15 +38,15 @@ This work was supported by Basic Science Research Program through the National 
 
 | Method            | Backbone         |  Model Params      | ADNI (AUC)            | BraTS2023 (DSC)              | MSD04 (DSC)                  | OASIS-1 (AUC)        |
 |-------------------|------------------|--------------------|-----------------------|------------------------------|------------------------------|----------------------|
-|  From Scratch     | UNETR            |  249 M\n(E: 88 M)   | 0.642                 | 82.17                        | 80.17                        | 0.739                |
-|  From Scratch     | Swin-UNETR       |  62 M\n(E: 8 M)     | 0.706                 | 83.83                        | 80.55                        | 0.635                |
-|  From Scratch     | Swin-UNETR-v2    |  73 M\n(E: 18 M)    | 0.849                 | 83.69                        | 81.23                        | 0.778                |
-| Swin-UNETR        | Swin-UNETR       |  62 M\n(E: 8 M)     | <ins>0.944</ins>      | 83.17                        | 80.78                        | <ins>0.878</ins>     |
-| VoCo              | Swin-UNETR-v2    |  73 M\n(E: 18 M)    | 0.924                 | 83.64                        | <ins>81.67</ins>             | 0.843                |
-| SuPreM            | Swin-UNETR       |  62 M\n(E: 8 M)     | 0.917                 | **84.25**                    | 80.76                        | 0.843                |
-| Universal Model   | Swin-UNETR       |  62 M\n(E: 8 M)     | 0.911                 | 83.61                        | **81.99**                    | 0.752                |
-| MedCoss           | UNETR            |  249 M\n(E: 88 M)   | 0.866                 | 82.26                        | 78.96                        | 0.809                |
-| **GBT-net**       | Swin-UNETR-v2    |  73 M\n(E: 18 M)    | **0.950**             | <ins>83.85</ins>             | 81.16                        | **0.943**            |
+|  From Scratch     | UNETR            |  249 M (E: 88 M)   | 0.642                 | 82.17                        | 80.17                        | 0.739                |
+|  From Scratch     | Swin-UNETR       |  62 M (E: 8 M)     | 0.706                 | 83.83                        | 80.55                        | 0.635                |
+|  From Scratch     | Swin-UNETR-v2    |  73 M (E: 18 M)    | 0.849                 | 83.69                        | 81.23                        | 0.778                |
+| Swin-UNETR        | Swin-UNETR       |  62 M (E: 8 M)     | <ins>0.944</ins>      | 83.17                        | 80.78                        | <ins>0.878</ins>     |
+| VoCo              | Swin-UNETR-v2    |  73 M (E: 18 M)    | 0.924                 | 83.64                        | <ins>81.67</ins>             | 0.843                |
+| SuPreM            | Swin-UNETR       |  62 M (E: 8 M)     | 0.917                 | **84.25**                    | 80.76                        | 0.843                |
+| Universal Model   | Swin-UNETR       |  62 M (E: 8 M)     | 0.911                 | 83.61                        | **81.99**                    | 0.752                |
+| MedCoss           | UNETR            |  249 M (E: 88 M)   | 0.866                 | 82.26                        | 78.96                        | 0.809                |
+| **GBT-net**       | Swin-UNETR-v2    |  73 M (E: 18 M)    | **0.950**             | <ins>83.85</ins>             | 81.16                        | **0.943**            |
 
 > **E**: encoder parameters
 > 
