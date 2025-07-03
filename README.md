@@ -6,9 +6,6 @@ This GitHub repository is created to share the model weights developed during th
 ---
 
 ## Requirements
-List the core libraries and their minimum versions.  
-Replace the placeholders with the exact versions you used.
-
 | Package        | Version |
 |----------------|---------|
 | Python         | ≥ 3.8   |
@@ -19,8 +16,6 @@ Replace the placeholders with the exact versions you used.
 | scikit-learn   | ≥ 1.3   |
 | matplotlib     | ≥ 3.8   |
 | tqdm           | ≥ 4.66  |
-
-*Generate an exact list with `pip freeze > requirements.txt` if needed.*
 
 ---
 
@@ -59,27 +54,12 @@ Replace the placeholder links with your actual download URLs.
 | v1.1    | Fine-tuned on IDH mutation classification   | `[Download .pth](https://github.com/yourname/yourrepo/releases/download/v1.1/gbt-net_finetune_v1.1.pth)` |
 | v2.0    | Updated architecture with attention module  | `[Download .pth](https://github.com/yourname/yourrepo/releases/download/v2.0/gbt-net_attention_v2.0.pth)` |
 
-> **How to use:**  
-> 1. Click the link to download the `.pth` file.  
-> 2. Load weights in your PyTorch script:  
->    ```python
->    from gbt_net import GBTNet
->    model = GBTNet(...)
->    model.load_state_dict(torch.load("path/to/gbt-net_pretrain_v1.0.pth"))
->    model.eval()
->    ```  
-> 3. Replace the URLs above with your GitHub release URLs or other hosting links.
 
+## Usage
+Please refer to the [GBT-net Model Loading Notebook](gbt_net_model_loading.ipynb) for detailed instructions on how to load and run both the segmentation and classification models.
 
 ---
 
-## Contact Information
-- **Corresponding Author:** Your Name  
-- **Email:** your.email@example.com  
-- **GitHub:** [`@username`](https://github.com/username)  
-- **Affiliation:** Department of Radiology, Your Institution  
-
----
 
 ## License
 Distributed under the MIT License.  
