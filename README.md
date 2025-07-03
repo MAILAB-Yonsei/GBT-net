@@ -16,16 +16,16 @@ This GitHub repository is created to share the model weights developed during th
 | Dataset                          | Modality               | Clinical Status             | Total # of Data                      | Train         | Valid         | Test          |
 |----------------------------------|------------------------|-----------------------------|--------------------------------------|---------------|---------------|---------------|
 | *Pre-training*                   |                        |                             |                                      |               |               |               |
-| ADNI-1                           | T1                     | AD, MCI, NC                 | 1,179                                | 782           | 196           | 201           |
-| AIBL                             | T1                     | AD, MCI, NC                 | 1,281                                | 1,280         | –             | –             |
-| BraTS 2023                       | T1, T1C, T2, FLAIR     | Brain Tumor                 | 5,004                                | 3,328         | 832           | 844           |
-| IXI                              | T1, T2, PD, MRA        | Normal                      | 2,307                                | 2,307         | –             | –             |
+| ADNI-1                           | MRI                    | AD, MCI, NC                 | 1,179                                | 782           | 196           | 201           |
+| AIBL                             | MRI                    | AD, MCI, NC                 | 1,281                                | 1,280         | –             | –             |
+| BraTS 2023                       | MRI                    | Brain Tumor                 | 5,004                                | 3,328         | 832           | 844           |
+| IXI                              | MRI                    | Normal                      | 2,307                                | 2,307         | –             | –             |
 | *Fine-tuning*                    |                        |                             |                                      |               |               |               |
-| TCGA                             | T1, T1C, T2, FLAIR     | IDH-mutant, IDH-wildtype    | 800                                  | 800           | –             | –             |
-| UCSF                             | T1, T1C, T2, FLAIR     | IDH-mutant, IDH-wildtype    | 1,908                                | 1,908         | –             | –             |
-| In-house (Sinchon Severance)     | T1, T1C, T2, FLAIR     | IDH-mutant, IDH-wildtype    | 4,212                                | 2,804         | 704           | 704           |
-| FLARE 23                         | Abdomen CT             | Normal                      | 4,000                                | 4,000         | –             | –             |
-| In-house (Gangnam Severance)     | Abdomen CT             | Acute Diseases              | 15,317                               | 15,317        | –             | –             |
+| TCGA                             | MRI                    | IDH-mutant, IDH-wildtype    | 800                                  | 800           | –             | –             |
+| UCSF                             | MRI                    | IDH-mutant, IDH-wildtype    | 1,908                                | 1,908         | –             | –             |
+| In-house (Sinchon Severance)     | MRI                    | IDH-mutant, IDH-wildtype    | 4,212                                | 2,804         | 704           | 704           |
+| FLARE 23                         | CT                     | Normal                      | 4,000                                | 4,000         | –             | –             |
+| In-house (Gangnam Severance)     | CT                     | Acute Diseases              | 15,317                               | 15,317        | –             | –             |
 | **Total**                        | —                      | —                           | **36,008**                           | **32,526**    | **1,732**     | **1,749**     |
 
 > **Note:** DTI images from the IXI dataset and ADC images from the in-house dataset were excluded due to low quality.  
