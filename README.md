@@ -32,9 +32,7 @@ This work was supported by Basic Science Research Program through the National 
 | **Total**                        | —                      | —                           | **36,008**                           | **32,526**    | **1,732**     | **1,749**     |
 
 > **Note:** DTI images from the IXI dataset and ADC images from the in-house dataset were excluded due to low quality.  
-> **Abbreviations:**  
-> **NC** = Normal Cognition &nbsp;•&nbsp; **MCI** = Mild Cognitive Impairment &nbsp;•&nbsp; **AD** = Alzheimer’s Disease &nbsp;•&nbsp; **MRA** = Magnetic Resonance Angiography  
-> **IDH** = Isocitrate Dehydrogenase &nbsp;•&nbsp; **TCGA** = The Cancer Genome Atlas &nbsp;•&nbsp; **UCSF** = University of California, San Francisco  
+> **NC** = Normal Cognition &nbsp;•&nbsp; **MCI** = Mild Cognitive Impairment &nbsp;•&nbsp; **AD** = Alzheimer’s Disease &nbsp;•&nbsp; **MRA** = Magnetic Resonance Angiography, **IDH** = Isocitrate Dehydrogenase &nbsp;•&nbsp; **TCGA** = The Cancer Genome Atlas &nbsp;•&nbsp; **UCSF** = University of California, San Francisco  
 
 ## Downstream Task Evaluation
 
