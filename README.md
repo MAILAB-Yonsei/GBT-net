@@ -49,9 +49,8 @@ This work was supported by Basic Science Research Program through the National 
 | **GBT-net**       | Swin-UNETR-v2    |  73 M (E: 18 M)    | **0.950**             | <ins>83.85</ins>             | 81.16                        | **0.943**            |
 
 > **E**: encoder parameters
-> ADNI: Hold-out test set with 5-fold CV ensemble
 > 
-> OASIS-1: Hold-out test set with 5-fold CV ensemble
+> ADNI, OASIS-1 (Classification Tasks): Hold-out test set with 5-fold CV ensemble
 
 ## Model Weights
 The trained model weights for **GBT-net** are provided below.  
