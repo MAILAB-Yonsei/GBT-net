@@ -51,7 +51,7 @@ Replace the placeholder links with your actual download URLs.
 
 
 ## Usage
-Please refer to the [GBT-net Model Loading Notebook](gbt_net_model_loading.ipynb) for detailed instructions on how to load and run both the segmentation and classification models.
+Please refer to the [GBT-net Model Loading Notebook](load_model_weight.ipynb) for detailed instructions on how to load and run both the segmentation and classification models.
 
 ---
 
