@@ -46,7 +46,7 @@ This work was supported by Basic Science Research Program through the National 
 | SuPreM            | Swin-UNETR       |  62 M (E: 8 M)     | 0.917                 | **84.25**                    | 80.76                        | 0.843                |
 | Universal Model   | Swin-UNETR       |  62 M (E: 8 M)     | 0.911                 | 83.61                        | <ins>81.99</ins>             | 0.752                |
 | MedCoss           | UNETR            |  249 M (E: 88 M)   | 0.866                 | 82.26                        | 78.96                        | 0.809                |
-| **GBT-net**       | Swin-UNETR-v2    |  73 M (E: 18 M)    | **0.950**             | <ins>83.85</ins>             | **82.45**                        | **0.943**            |
+| **GBT-net**       | Swin-UNETR-v2    |  73 M (E: 18 M)    | **0.950**             | <ins>83.85</ins>             | **82.45**                    | **0.943**            |
 
 > **E**: Encoder
 > 
