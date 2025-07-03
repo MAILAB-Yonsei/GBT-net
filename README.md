@@ -40,17 +40,17 @@ This GitHub repository is created to share the model weights developed during th
 ---
 ## Downstream Task Evaluation
 
-| Method            | Backbone         | Modality               | Training Token Size (B) | Model Params      | ADNI (AUC)            | BraTS2023 (DSC)              | MSD04 (DSC)                  | OASIS-1 (AUC)        |
-|-------------------|------------------|------------------------|-------------------------|-------------------|-----------------------|------------------------------|------------------------------|----------------------|
-|  –                | UNETR            | –                      | –                       | 249 M (E: 88 M)   | 0.615                 | 82.17                        | 80.17                        | 0.739                |
-|  –                | Swin-UNETR       | –                      | –                       | 62 M (E: 8 M)     | 0.699                 | 83.83                        | 80.55                        | 0.635                |
-|  –                | Swin-UNETR-v2    | –                      | –                       | 73 M (E: 18 M)    | 0.875                 | 83.69                        | 81.23                        | 0.778                |
-| Swin-UNETR        | Swin-UNETR       | CT                     | 15                      | 62 M (E: 8 M)     | **0.950**             | 83.17                        | 80.78                        | 0.878                |
-| VoCo              | Swin-UNETR-v2    | CT                     | 333                     | 73 M (E: 18 M)    | 0.938                 | 83.64                        | 81.67                        | 0.843                |
-| SuPreM            | Swin-UNETR       | CT                     | 28                      | 62 M (E: 8 M)     | 0.910                 | **84.25**                    | 80.76                        | 0.843                |
-| Universal Model   | Swin-UNETR       | Multi (CT, Text)       | 12                      | 62 M (E: 8 M)     | 0.893                 | 83.61                        | **81.99**                    | 0.752                |
-| MedCoss           | UNETR            | Multi (CT, MRI, Text)  | 0.14                    | 249 M (E: 88 M)   | 0.846                 | 82.26                        | 78.96                        | 0.809                |
-| **GBT-net**       | Swin-UNETR-v2    | CT, MR                 | 32 K                    | 73 M (E: 18 M)    | <ins>0.949</ins>      | <ins>83.85</ins>             | 81.16                        | **0.943**            |
+| Method            | Backbone         |  Model Params      | ADNI (AUC)            | BraTS2023 (DSC)              | MSD04 (DSC)                  | OASIS-1 (AUC)        |
+|-------------------|------------------|--------------------|-----------------------|------------------------------|------------------------------|----------------------|
+|  –                | UNETR            |  249 M (E: 88 M)   | 0.615                 | 82.17                        | 80.17                        | 0.739                |
+|  –                | Swin-UNETR       |  62 M (E: 8 M)     | 0.699                 | 83.83                        | 80.55                        | 0.635                |
+|  –                | Swin-UNETR-v2    |  73 M (E: 18 M)    | 0.875                 | 83.69                        | 81.23                        | 0.778                |
+| Swin-UNETR        | Swin-UNETR       |  62 M (E: 8 M)     | **0.950**             | 83.17                        | 80.78                        | 0.878                |
+| VoCo              | Swin-UNETR-v2    |  73 M (E: 18 M)    | 0.938                 | 83.64                        | 81.67                        | 0.843                |
+| SuPreM            | Swin-UNETR       |  62 M (E: 8 M)     | 0.910                 | **84.25**                    | 80.76                        | 0.843                |
+| Universal Model   | Swin-UNETR       |  62 M (E: 8 M)     | 0.893                 | 83.61                        | **81.99**                    | 0.752                |
+| MedCoss           | UNETR            |  249 M (E: 88 M)   | 0.846                 | 82.26                        | 78.96                        | 0.809                |
+| **GBT-net**       | Swin-UNETR-v2    |  73 M (E: 18 M)    | <ins>0.949</ins>      | <ins>83.85</ins>             | 81.16                        | **0.943**            |
 
 > **E**: encoder parameters  
 > **Bold** indicates the best score in each column  
