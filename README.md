@@ -1,4 +1,5 @@
 # GBT-net
+This GitHub repository is created to share the model weights developed during GBT-net project.
 
 ## Pre-training Dataset Overview
 
@@ -21,3 +22,25 @@
 > **Abbreviations:**  
 > NC: Normal Cognition; MCI: Mild Cognitive Impairment; AD: Alzheimer’s Disease; MRA: Magnetic Resonance Angiography;  
 > IDH: Isocitrate Dehydrogenase; TCGA: The Cancer Genome Atlas; UCSF: University of California, San Francisco; subj: subject.
+
+
+## Model Weights
+
+The trained model weights for GBT-net are provided below. Simply replace the placeholder links with your actual file URLs.
+
+| Version | Description                                | Download Link                                           |
+|---------|--------------------------------------------|---------------------------------------------------------|
+| v1.0    | Pre-trained on MRI & CT (full pre-training) | [Download `.pth`](https://github.com/yourname/yourrepo/releases/download/v1.0/gbt-net_pretrain_v1.0.pth) |
+| v1.1    | Fine-tuned on IDH mutation classification  | [Download `.pth`](https://github.com/yourname/yourrepo/releases/download/v1.1/gbt-net_finetune_v1.1.pth) |
+| v2.0    | Updated architecture with attention module | [Download `.pth`](https://github.com/yourname/yourrepo/releases/download/v2.0/gbt-net_attention_v2.0.pth) |
+
+> **How to use:**  
+> 1. Click on the link to download the `.pth` file.  
+> 2. Load weights in your PyTorch script:  
+>    ```python
+>    from gbt_net import GBTNet
+>    model = GBTNet(...)
+>    model.load_state_dict(torch.load("path/to/gbt-net_pretrain_v1.0.pth"))
+>    model.eval()
+>    ```  
+> 3. Replace the URLs above with your GitHub release URLs or other hosting links.
