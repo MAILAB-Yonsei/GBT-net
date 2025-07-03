@@ -16,7 +16,7 @@ This GitHub repository is created to share the model weights developed during th
 
 ## Pre-training Dataset Overview
 
-| Dataset                          | Modality               | Clinical Status             | Total # of Data (each contrast)      | Train (# subj) | Valid (# subj) | Test (# subj) |
+| Dataset                          | Modality               | Clinical Status             | Total # of Data                      | Train         | Valid         | Test          |
 |----------------------------------|------------------------|-----------------------------|--------------------------------------|---------------|---------------|---------------|
 | *Pre-training*                   |                        |                             |                                      |               |               |               |
 | ADNI-1                           | T1                     | AD, MCI, NC                 | 1,179                                | 782           | 196           | 201           |
@@ -35,7 +35,6 @@ This GitHub repository is created to share the model weights developed during th
 > **Abbreviations:**  
 > **NC** = Normal Cognition &nbsp;•&nbsp; **MCI** = Mild Cognitive Impairment &nbsp;•&nbsp; **AD** = Alzheimer’s Disease &nbsp;•&nbsp; **MRA** = Magnetic Resonance Angiography  
 > **IDH** = Isocitrate Dehydrogenase &nbsp;•&nbsp; **TCGA** = The Cancer Genome Atlas &nbsp;•&nbsp; **UCSF** = University of California, San Francisco  
-> **subj** = subject (unique patient/scan)
 
 ---
 ## Downstream Task Evaluation
