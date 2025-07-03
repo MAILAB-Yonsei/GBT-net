@@ -55,7 +55,7 @@ Replace the placeholder links with your actual download URLs.
 
 | Version | Pre-training Iterations                                 | Download Link |
 |---------|---------------------------------------------|---------------|
-| v1.0    | 100k                                        | [Download .pth](https://drive.google.com/file/d/1nxIHdx6zJhoQ2UQ2aEi5ew1c5pX0_Hdw/view?usp=sharing) |
+| v1.0    | 100k                                        | [Download](https://drive.google.com/file/d/1nxIHdx6zJhoQ2UQ2aEi5ew1c5pX0_Hdw/view?usp=sharing) |
 
 
 
