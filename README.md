@@ -23,11 +23,10 @@ This work was supported by Basic Science Research Program through the National 
 | AIBL                             | MRI                    | AD, MCI, NC                 | 1,281                                | 1,280         | –             | –             |
 | BraTS 2023                       | MRI                    | Brain Tumor                 | 5,004                                | 3,328         | 832           | 844           |
 | IXI                              | MRI                    | Normal                      | 2,307                                | 2,307         | –             | –             |
-| *Fine-tuning*                    |                        |                             |                                      |               |               |               |
 | TCGA                             | MRI                    | IDH-mutant, IDH-wildtype    | 800                                  | 800           | –             | –             |
 | UCSF                             | MRI                    | IDH-mutant, IDH-wildtype    | 1,908                                | 1,908         | –             | –             |
-| In-house (Hospital A)            | MRI                    | IDH-mutant, IDH-wildtype    | 4,212                                | 2,804         | 704           | 704           |
 | FLARE 23                         | CT                     | Normal                      | 4,000                                | 4,000         | –             | –             |
+| In-house (Hospital A)            | MRI                    | IDH-mutant, IDH-wildtype    | 4,212                                | 2,804         | 704           | 704           |
 | In-house (Hospital B)            | CT                     | Acute Diseases              | 15,317                               | 15,317        | –             | –             |
 | **Total**                        | —                      | —                           | **36,008**                           | **32,526**    | **1,732**     | **1,749**     |
 
