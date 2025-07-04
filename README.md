@@ -18,7 +18,6 @@ This work was supported by Basic Science Research Program through the National 
 
 | Dataset                          | Modality               | Clinical Status             | Total # of Data                      | Train         | Valid         | Test          |
 |----------------------------------|------------------------|-----------------------------|--------------------------------------|---------------|---------------|---------------|
-| *Pre-training*                   |                        |                             |                                      |               |               |               |
 | ADNI-1                           | MRI                    | AD, MCI, NC                 | 1,179                                | 782           | 196           | 201           |
 | AIBL                             | MRI                    | AD, MCI, NC                 | 1,281                                | 1,280         | –             | –             |
 | BraTS 2023                       | MRI                    | Brain Tumor                 | 5,004                                | 3,328         | 832           | 844           |
